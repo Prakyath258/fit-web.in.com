@@ -1,0 +1,33 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	background: url(fit.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1{
+	font-family: 'Assistant', sans-serif;
+	color:#0fb7d2;
+}
+.btn-primary{
+	border-radius:100px;
+	border-width:3px 5px;
+	border-color: #f33d09;
+	background-color:#f33d09; 
+}
+hr{
+	border-color:#f33d09;
+    border-width:3px;
+	max-width:30px;
+}
+.btn{
+	text-transform: uppercase;
+}
+.btn-primary:hover{
+	background-color:#dc3545;
+	border-color: #dc3545;
+	border-width:5px;
+}
